@@ -34,11 +34,11 @@ godot/             # Godot 4 visualization client
 Requirements: [**Python 3.12**](https://www.python.org/downloads/release/python-3121/), [Ollama](https://ollama.com) running locally (e.g. `ollama run mistral`) and **Godot 4.5** for the visualization.
 
 ```bash
-cd ecosystem_simulator                 # Root
-2. py -3.12 -m venv .venv              # Create env
-3. .venv/Scripts/activate
-4. pip install -r requirements.txt
-5. python run_with_godot.py            # To run with godot
+cd ecosystem_simulator                  # Root
+py -3.12 -m venv .venv                  # Create env
+.venv/Scripts/activate
+pip install -r requirements.txt
+python run_with_godot.py                # To run with godot
 ```
 
 Open `godot/simulador-ecosistemas` in Godot and run the scene to see the agents. Other entry points:
